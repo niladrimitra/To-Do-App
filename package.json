@@ -1,6 +1,6 @@
 {
-  "homepage": "https://niladrimitra.github.io/To-Do-Appnp",
-  "name": "to_do",
+   "name": "to_do",
+   "homepage": "https://niladrimitra.github.io/To-Do-App/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,9 +14,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
-"build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
